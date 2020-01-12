@@ -1,7 +1,61 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Karla", sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+/*      TOP     */
+.top {
+  margin: 200px 400px;
+  box-shadow: 0 0 2px gray;
+}
+
+/*      FIRST       */
+.first {
+  padding: 40px;
+}
+
+.first h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.first h3 {
+  color: hsl(71, 73%, 54%);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.first p {
+  color: hsl(203, 6%, 61%);
+  padding-right: 20px;
+}
+
+/*      SECOND      */
+.second {
+  color: hsl(210, 57%, 97%);
+  display: flex;
+}
+
+.front {
+  padding: 40px;
+  float: left;
+  width: 50%;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.back {
+  padding: 40px;
+  width: 50%;
+  background-color: hsl(218, 22%, 67%);
+}
+
+/*      FOOTER      */
 
 .attribution {
   font-size: 11px;
